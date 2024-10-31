@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family: 'sigilosconhecimento'; 
+    src: url('sigilos-conhecimento.ttf') format('truetype'),
+   font: size 1.2em;
+  }
+body {
+    background-color: #484848;
+    color: #000000e5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.koh-santepheap-regular {
+    font-family: "Koh Santepheap", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .koh-santepheap-bold {
+    font-family: "Koh Santepheap", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.sigilos {
+    font-family: sigilosconhecimento,sans-serif ;
+    color: #06182;
+    font-weight: 560;
+    font-size: 3em;
+}
+.noto-sans {
+  font-family: noto-sans, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+header {
+    background-color: #262525;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    font-family: Onest;
+}
+
+main {
+    max-width: 800px;
+    width: 100%;
+    background-color:#525252;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+}
+
+h1, h2 {
+    color: #061822;
+    font-family: Onest;
+}
+
+ul, ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+    color: #061822;
+   
+}
+
+.imagem-receita {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.final {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: Onest;
+    color:#061822
+}
+
+.botao-enigma img {
+    width: 600px; 
+    height: auto;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #262525;
+    color: #06182;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    position: static;
+    bottom: 0;
+}
